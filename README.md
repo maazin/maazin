@@ -2,8 +2,7 @@
 
 ### 🌟 About Me  
 🎓 **Honors Computer Science Student** | University of South Florida  
-📍 **Location:** Tampa, FL | Open to remote/hybrid opportunities  
-💻 **Passion:** Turning complex problems into elegant solutions using data science, machine learning, and software engineering.  
+💻 **Passion:** Turning complex problems into actionalble solutions using data science, machine learning, and software engineering.  
 
 I'm a highly motivated individual with hands-on experience in data analysis, machine learning, and software development. My expertise includes developing machine learning models, designing scalable solutions, and leading teams to success in both academic and professional settings.  
 
