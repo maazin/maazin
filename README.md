@@ -1,23 +1,3 @@
-## Hi there 👋
-
-💡Are you also preparing for a job interview?  
-
-The best preparation is obvious but difficult to execute: repeated mock interviews using real questions from your target company.  
-
-That's exactly what we've put together:  
-
-* Real Question Banks from 500+ top companies 🗂️  
-* AI-Powered Mock Interviews 👩‍⚖️  
-* Real-Time Voice Interaction  
-* Training Data on 10M+ actual interviews  
-
-🎯 This real-time voice interaction agent is only available on our website here: [https://www.masterinterview.ai](https://www.masterinterview.ai)  
----  
-
-### Here's a professional and engaging GitHub profile template for you:  
-
----
-
 ## 👋 Hi, I'm Maazin Shaikh  
 
 ### 🌟 About Me  
@@ -46,34 +26,29 @@ I'm a highly motivated individual with hands-on experience in data analysis, mac
 ---
 
 ### 🛠 **Skills**  
-- **Programming Languages:** Python, R, SQL, C++, JavaScript  
-- **Data Analysis & Visualization:** Tableau, Power BI, Pandas, NumPy, Matplotlib, Seaborn  
+- **Programming Languages:** Python, R, SQL, C, C++, Java  
+- **Data Analysis & Visualization:** Tableau, Power BI, Pandas, NumPy, Matplotlib  
 - **Machine Learning:** Scikit-learn, PyTorch, TensorFlow (beginner)  
-- **Database Management:** MySQL, PostgreSQL, Hadoop  
+- **Database Management:** MySQL, Hadoop, Spark  
 - **Other Tools:** Git, Jupyter Notebooks, RStudio  
 
 ---
 
 ### 🌱 **Currently Learning**  
-- Generative AI and LLM-based models  
-- Advanced cloud computing techniques (AWS, GCP)  
-- Computer Vision and Image Processing  
+- LLM-based models  
 
 ---
 
 ### 📈 **Achievements & Leadership**  
 - **USF Presidential Scholar** | 3.9 GPA  
-- **Director of Events**, AI Society at USF  
-   - Organized Cypher 2024 AI Conference, boosting engagement by 30%.  
-
+- **Director of Events**, AI Society at USF
+- - **Vice President of Events**, Data Science Club at USF 
+ 
 ---
 
 ### 📫 **Get in Touch!**  
 - **LinkedIn:** [linkedin.com/in/maazin-shaikh](https://www.linkedin.com/in/maazin-shaikh)  
-- **GitHub:** [github.com/maazin](https://github.com/maazin)  
 - **Email:** contactmaazin@gmail.com  
-
-Let me know if you'd like to tweak this or add more details!
 
 <!--
 **maazin/maazin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
