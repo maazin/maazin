@@ -1,65 +1,57 @@
 ## 👋 Hi, I'm Maazin Shaikh  
 
 ### 🌟 About Me  
-🎓 **Honors Computer Science Student** | University of South Florida  
-💻 **Passion:** Turning complex problems into actionalble solutions using data science, machine learning, and software engineering.  
+🎓 **Honors Computer Science Student** @ USF (Judy Genshaft Honors College)  
+💻 **Passion:** Using ** AI-Data and software engineering** to create real-world impact.  
 
-I'm a highly motivated individual with hands-on experience in data analysis, machine learning, and software development. My expertise includes developing machine learning models, designing scalable solutions, and leading teams to success in both academic and professional settings.  
-
----  
-
-### 💼 **Experience & Projects**  
-#### **🌐 Data Science & Machine Learning Projects**  
-1. **[Airline Passenger Satisfaction Predictor](#)**  
-   - Built an 80% accurate predictive model using Python and Random Forest, analyzing 100,000+ data points.  
-   - Tools: Python, Pandas, NumPy, Seaborn, Matplotlib  
-
-2. **[Website Optimization Analysis](#)**  
-   - Analyzed web traffic data for The Recording Academy to evaluate audience engagement and develop actionable strategies.  
-   - Tools: SQL, Tableau, Power BI  
-
-3. **[Energy Sustainability Dashboard](#)**  
-   - Developed interactive visualizations to identify optimal locations for data centers using energy consumption patterns.  
-   - Tools: Tableau, Excel  
+I love building intelligent systems — from **AI-powered apps** to **predictive ML models** — and turning messy data into actionable solutions. Alongside my technical projects, I lead student organizations and collaborate with industry partners to bring ideas to life.  
 
 ---
 
-### 🛠 **Skills**  
-- **Programming Languages:** Python, R, SQL, C, C++, Java  
-- **Data Analysis & Visualization:** Tableau, Power BI, Pandas, NumPy, Matplotlib  
-- **Machine Learning:** Scikit-learn, PyTorch, TensorFlow (beginner)  
-- **Database Management:** MySQL, Hadoop, Spark  
-- **Other Tools:** Git, Jupyter Notebooks, RStudio  
+### 💼 Experience & Projects  
+#### 🚀 **Industry Experience**  
+- **Publix | Data Science & ML Intern (2025)**  
+   Boosted app engagement by **9%** with a personalized ML model in **Azure Databricks (PySpark)**.  
+- **USF | AI Research Assistant (2025)**  
+   Building an **AI Grader** using multi-agent LLMs, LangChain, and RAG.  
+- **The Global Tech Experience | Data Analyst Intern (2024)**  
+   Designed **8+ Tableau dashboards**, driving **20% higher decision-making accuracy**.  
+
+#### 🌐 **Highlighted Projects**  
+1. **[BullsGPT](#)** – Full-stack chatbot answering questions across **1,500+ USF sites**.  
+   *Tech:* Flask, AWS, LangChain, PyTorch  
+2. **[SiteWeaver](#)** – AI-powered website builder creating sites in under **60 seconds**.  
+   *Tech:* React, Node.js, Claude AI, WebContainer  
 
 ---
 
-### 🌱 **Currently Learning**  
-- LLM-based models  
+### 🛠 Skills  
+💻 **Languages:** Python | R | C | C++ | C# | Java | JavaScript/TypeScript | SQL | Bash  
+⚡ **Tools & Tech:** Pandas | NumPy | Scikit-learn | PyTorch | Tableau | Power BI | Spark | Databricks | Git | React.js | Node.js | AWS | Azure | Hadoop
 
 ---
 
-### 📈 **Achievements & Leadership**  
-- **USF Presidential Scholar** | 3.9 GPA  
-- **Director of Events**, AI Society at USF
-- - **Vice President of Events**, Data Science Club at USF 
- 
+### 📈 Leadership & Achievements  
+- 🎯 **Head Director – SHPE Jr:** Leading 10+ STEM workshops per semester for 150+ students.  
+- 🤝 **Vice President – Data Science Club:** Organized workshops and partnerships with Bank of America, Amgen, and Citi. 
+- 🧠 **Director of Events – AI Society @ USF**  
+- 🏆 **USF Presidential Scholar** | **3.9 GPA**  
+
 ---
 
-### 📫 **Get in Touch!**  
-- **LinkedIn:** [linkedin.com/in/maazin-shaikh](https://www.linkedin.com/in/maazin-shaikh)  
-- **Email:** contactmaazin@gmail.com  
+### 🌱 Currently Learning  
+- LLMs & multi-agent systems  
+- Full-stack AI app deployment  
 
-<!--
-**maazin/maazin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 📊 GitHub Stats  
+![Maazin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=maazin&show_icons=true&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maazin&layout=compact&theme=tokyonight)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 📫 Get in Touch  
+🌐 [maazin.site](http://www.maazin.site)  
+💼 [LinkedIn](https://www.linkedin.com/in/maazin-shaikh)  
+📧 contactmaazin@gmail.com  
