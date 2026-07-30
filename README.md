@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <sub>📍 Tampa, FL · Open to <b>SWE / ML / Data Science</b> roles · 🎓 Expected graduation: <b>[MONTH YEAR]</b></sub>
+  <sub>Open to <b>SWE / AI / Data Science</b> roles </sub>
 </p>
 
 ---
