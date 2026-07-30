@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>AI/ML Engineer · Data Scientist · CS Honors @ University of South Florida</b><br>
-  I ship AI systems that people actually use — shipped ML personalization to a Fortune-100 retail app, and built LLM products used across a 50,000-student campus.
+  I ship AI systems that people actually use, shipped ML personalization to a Fortune-100 retail app, and built LLM products used across a 50,000-student campus.
 </p>
 
 <p align="center">
