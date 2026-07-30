@@ -128,7 +128,20 @@ Benchmarked **zero-shot vs. few-shot vs. chain-of-thought** prompting of Gemma 3
 - **Head Director, SHPE Jr.** *(Jun 2025 – May 2026)* — led a team of 5 delivering **10+ STEM workshops per semester** to **150+ students**; drove a **25% increase** in CS/engineering pathway engagement
 - **Vice President, Data Science Club @ USF** *(May 2024 – Apr 2025)* — ran hackathons and ML workshops with an 8-member exec board, engaging **200+ students**; partnered with **Bank of America, Amgen, and Citi**
 - **Director of Events, AI Society @ USF**
-- **USF Presidential Scholar** · Judy Genshaft Honors College
+
+---
+
+## 🏆 Honors & Scholarships
+
+<table>
+<tr><td>🎖️</td><td><b>USF Presidential Scholar</b></td><td><i>USF's top merit award</i></td></tr>
+<tr><td>🥇</td><td><b>Green & Gold Scholarship</b></td><td><i>University of South Florida</i></td></tr>
+<tr><td>🎓</td><td><b>Judy Genshaft Honors College Scholarship</b></td><td><i>University of South Florida</i></td></tr>
+<tr><td>🌍</td><td><b>NSBE International Scholarship</b></td><td><i>National Society of Black Engineers</i></td></tr>
+<tr><td>⚙️</td><td><b>USF Engineering Endowment Scholarship</b></td><td><i>College of Engineering</i></td></tr>
+</table>
+
+<sub>Judy Genshaft Honors College · GPA 3.87/4.0</sub>
 
 ---
 
