@@ -1,13 +1,9 @@
 <div align="center">
 
-<h1>Maazin Shaikh</h1>
-
-<p><b>Software Engineer · AI/ML Engineer</b></p>
-
-<p>
-I build ML and LLM systems that reach real users — a deal-ranking model that lifted<br>
-Publix app click-through <b>12%</b>, and retrieval systems serving <b>800+</b> students.
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="Maazin Shaikh — Software Engineer, AI/ML Engineer" width="100%">
+</picture>
 
 <p>
 <a href="https://www.maazin.site"><img src="https://img.shields.io/badge/Portfolio-18181B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
@@ -15,7 +11,7 @@ Publix app click-through <b>12%</b>, and retrieval systems serving <b>800+</b> s
 <a href="mailto:contactmaazin@gmail.com"><img src="https://img.shields.io/badge/Email-18181B?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<p><sub>Tampa, FL &nbsp;·&nbsp; B.S. Computer Science, University of South Florida &nbsp;·&nbsp; Open to full-time roles</sub></p>
+<p><sub>Tampa, FL &nbsp;·&nbsp; B.S. Computer Science, University of South Florida &nbsp;·&nbsp; <b>Open to full-time roles</b></sub></p>
 
 </div>
 
@@ -23,86 +19,105 @@ Publix app click-through <b>12%</b>, and retrieval systems serving <b>800+</b> s
 
 ## Selected Work
 
-### WeakPoint &nbsp;<sub>[Code](https://github.com/maazin/Weak_Spot) · [Live](https://weakspot-web.fly.dev/)</sub>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Diagnoses *why* a code submission failed, not just that it did. A five-node LangGraph
-pipeline classifies failures into **51 conceptual modes** at **75% top-1 accuracy**, for
-**$0.0084 per request** through prompt caching and cheap-tier-first model routing.
+<sub><b>RETRIEVAL · LLM PIPELINES</b></sub><br>
+<a href="https://github.com/maazin/Weak_Spot"><b>WeakPoint</b></a> &nbsp;<sub><a href="https://weakspot-web.fly.dev/">live&nbsp;&#8599;</a></sub>
+<br><br>
+Diagnoses <i>why</i> a code submission failed, not just that it did. Five LangGraph nodes classify failures into <b>51 conceptual modes</b> at <b>75% top-1 accuracy</b> for <b>$0.0084 per request</b>.
+<br><br>
+Hybrid retrieval fuses Postgres full-text with pgvector through weighted Reciprocal Rank Fusion — <b>0.412 precision@3</b>, beating both baselines. A lexical vaulting layer blocked <b>40/40</b> injection attempts across <b>155 CI tests</b>.
+<br><br>
+<sub><code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>MCP</code> <code>pgvector</code> <code>Redis</code></sub>
 
-Hybrid retrieval fuses PostgreSQL full-text search with pgvector cosine similarity through
-weighted Reciprocal Rank Fusion — **0.412 precision@3**, beating keyword-only and vector-only
-baselines on both metrics. A lexical vaulting layer strips attacker-controlled text before
-inference, blocking **40/40** prompt-injection attempts across **155 CI tests**.
+</td>
+<td width="50%" valign="top">
 
-<sub>`Python` · `FastAPI` · `LangGraph` · `MCP` · `pgvector` · `Redis` · `Docker` · `Fly.io`</sub>
+<sub><b>SYSTEMS · PERFORMANCE</b></sub><br>
+<a href="https://github.com/maazin/Overlap"><b>Overlap</b></a> &nbsp;<sub><a href="https://overlap-flax-psi.vercel.app/">live&nbsp;&#8599;</a></sub>
+<br><br>
+Group scheduling with no accounts and no login — <b>6 taps</b> to respond. A dominance-analysis solver proves when a time is mathematically unbeatable regardless of who hasn't replied.
+<br><br>
+Closure-based resolvers cut solver runtime <b>45%</b> and memory <b>73%</b>. TTL caching and single-flight dedup collapsed 100 concurrent requests from 100 outbound fetches to <b>1</b>.
+<br><br>
+<sub><code>Go</code> <code>SvelteKit</code> <code>PostgreSQL</code> <code>sqlc</code> <code>SSE</code> <code>Docker</code></sub>
 
-<br>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### Overlap &nbsp;<sub>[Code](https://github.com/maazin/Overlap) · [Live](https://overlap-flax-psi.vercel.app/)</sub>
+<sub><b>DATA ENGINEERING · ETL</b></sub><br>
+<a href="https://github.com/maazin/Recall_Radar"><b>Recall Radar</b></a> &nbsp;<sub><a href="https://recallradar-web.onrender.com/">live&nbsp;&#8599;</a></sub>
+<br><br>
+One searchable feed for federal food-recall data. An ETL pipeline unifies <b>4 sources</b> (FDA, USDA/FSIS, CDC) into a normalized schema, indexing <b>2,000+ advisories</b> with <b>sub-200ms</b> search and cutting duplicates <b>39%</b>.
+<br><br>
+Fail-fast validation rejects malformed payloads before any write, covered by <b>186 tests</b>.
+<br><br>
+<sub><code>Python</code> <code>FastAPI</code> <code>React</code> <code>PostgreSQL</code> <code>CI/CD</code></sub>
 
-Group scheduling with no accounts and no login — **6 taps** to respond. A dominance-analysis
-solver proves when a meeting time is mathematically unbeatable regardless of who hasn't
-replied yet, so the organizer can lock a slot early.
+</td>
+<td width="50%" valign="top">
 
-Replacing materialized response matrices with closure-based resolvers cut solver runtime
-**45%** (18.3ms → 10.0ms) and memory **73%** (12.4MB → 3.4MB). TTL caching and single-flight
-deduplication collapsed 100 concurrent requests from 100 outbound fetches to **1**, closing an
-unauthenticated amplification vector.
+<sub><b>RAG · PRODUCTION</b></sub><br>
+<a href="https://github.com/maazin/AskRocky"><b>AskRocky</b></a> &nbsp;<sub><a href="https://askrocky.vercel.app/">live&nbsp;&#8599;</a></sub>
+<br><br>
+RAG chatbot answering campus questions for <b>800+ USF freshmen</b>. Scraped and chunked <b>3,575 pages</b> into 384-dimensional BGE embeddings in Pinecone, citing the top 4 cosine matches on every reply.
+<br><br>
+Held latency near <b>4 seconds</b> by preloading the embedding model behind a readiness probe, serving a degraded answer during cold start.
+<br><br>
+<sub><code>Python</code> <code>Flask</code> <code>LangChain</code> <code>Pinecone</code> <code>Hugging Face</code></sub>
 
-<sub>`Go` · `SvelteKit` · `PostgreSQL` · `sqlc` · `SSE` · `Docker` · `GitHub Actions`</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<br>
+<sub><b>APPLIED LLM</b></sub><br>
+<a href="https://github.com/maazin/StudyPDF"><b>StudyPDF</b></a> &nbsp;<sub><a href="https://studypdf.streamlit.app">live&nbsp;&#8599;</a></sub>
+<br><br>
+Upload a PDF, get summaries, auto-generated quizzes, and grounded Q&amp;A, with Groq handling low-latency inference.
+<br><br>
+<sub><code>Python</code> <code>Streamlit</code> <code>Groq</code></sub>
 
-### Recall Radar &nbsp;<sub>[Code](https://github.com/maazin/Recall_Radar) · [Live](https://recallradar-web.onrender.com/)</sub>
+</td>
+<td width="50%" valign="top">
 
-One searchable feed for federal food-recall data. An ETL pipeline unifies **4 sources**
-(FDA, USDA/FSIS, CDC) into a normalized schema, indexing **2,000+ advisories** with
-**sub-200ms** filtered search and cutting duplicates **39%** through language-aware
-deduplication and idempotent upserts.
+<sub><b>RESEARCH · EVALUATION</b></sub><br>
+<a href="https://github.com/maazin/LLM_Project"><b>LLM Prompting Study</b></a>
+<br><br>
+Benchmarked zero-shot vs. few-shot vs. chain-of-thought prompting of Gemma 3 against an RNN baseline on IMDB sentiment — a controlled look at when prompting beats fine-tuning.
+<br><br>
+<sub><code>PyTorch</code> <code>Transformers</code> <code>NLP</code></sub>
 
-Fail-fast schema validation rejects malformed upstream payloads before any database write,
-covered by **186 tests** across every source's failure path.
-
-<sub>`Python` · `FastAPI` · `React` · `PostgreSQL` · `Docker` · `CI/CD`</sub>
-
-<br>
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>More projects</b></summary>
+<summary><b>More machine learning work</b></summary>
 
 <br>
 
-**[AskRocky](https://github.com/maazin/AskRocky)** · [Live](https://askrocky.vercel.app/) — RAG chatbot
-answering campus questions for **800+ USF freshmen**. Scraped and chunked 3,575 USF pages into
-384-dimensional BGE embeddings in Pinecone, returning the top 4 cosine matches as citations on
-every reply. Held end-to-end latency near 4 seconds by preloading the embedding model behind a
-readiness probe.
-<br><sub>`Python` · `Flask` · `LangChain` · `Pinecone` · `Hugging Face` · `Vercel`</sub>
+**[Airline Satisfaction Prediction](https://github.com/maazin/Airline-Passanger-Satisfaction-Prediction)** — Random Forest classifier predicting passenger satisfaction from **100k+** survey records.
+<br><sub>`Python` · `scikit-learn`</sub>
 
 <br>
 
-**[StudyPDF](https://github.com/maazin/StudyPDF)** · [Live](https://studypdf.streamlit.app) — Upload a
-PDF, get summaries, auto-generated quizzes, and grounded Q&A, with Groq handling low-latency inference.
-<br><sub>`Python` · `Streamlit` · `Groq`</sub>
-
-<br>
-
-**[LLM Prompting Study](https://github.com/maazin/LLM_Project)** — Benchmarked zero-shot vs. few-shot
-vs. chain-of-thought prompting of Gemma 3 against an RNN baseline on IMDB sentiment. A controlled
-look at when prompting beats fine-tuning.
-<br><sub>`PyTorch` · `Transformers` · `NLP`</sub>
-
-<br>
-
-**[Airline Satisfaction Prediction](https://github.com/maazin/Airline-Passanger-Satisfaction-Prediction)**
-— Random Forest classifier predicting passenger satisfaction from **100k+** survey records.
-<br><sub>`Python` · `scikit-learn` · `Random Forest`</sub>
-
-<br>
-
-**[Movie Recommender](https://github.com/maazin/Movie-Recommendation)** — Collaborative-filtering
-recommender (KNN) on the MovieLens dataset, served through Streamlit.
+**[Movie Recommender](https://github.com/maazin/Movie-Recommendation)** — Collaborative-filtering recommender (KNN) on MovieLens, served through Streamlit.
 <br><sub>`Python` · `scikit-learn` · `Streamlit`</sub>
+
+<br>
+
+**[Score Predictor](https://github.com/maazin/score-predictor)** — Linear regression predicting exam scores from study hours.
+<br><sub>`Python` · `Streamlit`</sub>
+
+<br>
+
+**[SQL Projects](https://github.com/maazin/SQL-Projects)** — Fortune 500 analysis of benefits, sustainability, and satisfaction by sector.
+<br><sub>`SQL`</sub>
 
 </details>
 
@@ -110,62 +125,103 @@ recommender (KNN) on the MovieLens dataset, served through Streamlit.
 
 ## Experience
 
-**Data Science & ML Intern** — Publix <sub>May 2025 – Jul 2025</sub>
+<table>
+<tr>
+<td valign="top" width="34%">
 
-- Deployed a personalized deal-ranking model in Azure Databricks with PySpark — **+12%** app click-through, **+9%** engagement in pilot
-- Engineered **20+** customer and product features (purchase frequency, category affinity, deal scarcity) — **+15%** model precision offline
-- Ran predictive and causal analysis on **500K+** transactions, surfacing four stockout drivers and cutting out-of-stocks **10%**
+<b>Data Science &amp; ML Intern</b><br>
+<sub>Publix &nbsp;·&nbsp; May 2025 – Jul 2025</sub>
 
-**AI Research Assistant** — University of South Florida <sub>Jan 2025 – Apr 2025</sub>
+</td>
+<td valign="top">
 
-- Built an AI grader for Algorithms coursework with multi-agent LLMs — **90%** agreement with human graders
-- Implemented the grading workflow in Python with LangChain and RAG, generating feedback on **100+** submissions and cutting grading time **70%**
+Deployed a personalized deal-ranking model in Azure Databricks with PySpark — <b>+12%</b> app click-through, <b>+9%</b> engagement in pilot.<br>
+Engineered <b>20+</b> customer and product features (purchase frequency, category affinity, deal scarcity) for <b>+15%</b> precision offline.<br>
+Ran predictive and causal analysis on <b>500K+</b> transactions, surfacing four stockout drivers and cutting out-of-stocks <b>10%</b>.
 
-**Data Analyst Intern** — The Global Tech Experience <sub>Jan 2024 – May 2024</sub>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-- Analyzed **2M+** monthly web-traffic and energy records to define 5 KPIs — **+28%** visitor engagement
-- Shipped **8+** interactive Tableau dashboards, cutting report turnaround **30%**
-- Planned and executed A/B tests driving a **20%** lift in conversion
+<b>AI Research Assistant</b><br>
+<sub>University of South Florida &nbsp;·&nbsp; Jan 2025 – Apr 2025</sub>
+
+</td>
+<td valign="top">
+
+Built an AI grader for Algorithms coursework with multi-agent LLMs — <b>90%</b> agreement with human graders.<br>
+Implemented the grading workflow in Python with LangChain and RAG, generating feedback on <b>100+</b> submissions and cutting grading time <b>70%</b>.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<b>Data Analyst Intern</b><br>
+<sub>The Global Tech Experience &nbsp;·&nbsp; Jan 2024 – May 2024</sub>
+
+</td>
+<td valign="top">
+
+Analyzed <b>2M+</b> monthly web-traffic and energy records to define 5 KPIs — <b>+28%</b> visitor engagement.<br>
+Shipped <b>8+</b> interactive Tableau dashboards, cutting report turnaround <b>30%</b>.<br>
+Planned and executed A/B tests driving a <b>20%</b> lift in conversion.
+
+</td>
+</tr>
+</table>
 
 <br>
 
 ## Stack
 
-**Languages** &nbsp; Python · Go · TypeScript · SQL · Java · C++ · C# · R · Bash
-
-**AI & ML** &nbsp; LangGraph · LangChain · RAG · MCP · PyTorch · Hugging Face · scikit-learn · PySpark · Databricks
-
-**Backend** &nbsp; FastAPI · Flask · Node.js · PostgreSQL · pgvector · Redis · MongoDB · REST · SSE
-
-**Frontend** &nbsp; React · Next.js · SvelteKit · Tailwind · Vite
-
-**Infrastructure** &nbsp; Docker · GitHub Actions · AWS · Azure · GCP · Fly.io · Vercel
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" alt="Languages, AI and ML, Backend, Frontend, Infrastructure" width="100%">
+</picture>
 
 <br>
 
-## Leadership
+## Leadership &amp; Honors
 
-**Head Director** — SHPE Jr <sub>Jun 2025 – May 2026</sub><br>
-Lead a team of 5 delivering **10+ STEM workshops per semester** to **150+ students**, driving a **25%** increase in CS and engineering pathway engagement.
+<table>
+<tr>
+<td valign="top" width="58%">
 
-**Vice President** — Data Science Club at USF <sub>May 2024 – Apr 2025</sub><br>
-Ran hackathons and ML workshops with an 8-member executive board, engaging **200+ students** through partnerships with Bank of America, Citi, and Amgen.
+<b>Head Director</b> &nbsp;<sub>SHPE Jr &nbsp;·&nbsp; Jun 2025 – May 2026</sub><br>
+Lead a team of 5 delivering <b>10+ STEM workshops per semester</b> to <b>150+ students</b>, driving a <b>25%</b> increase in CS and engineering pathway engagement.
+<br><br>
+<b>Vice President</b> &nbsp;<sub>Data Science Club at USF &nbsp;·&nbsp; May 2024 – Apr 2025</sub><br>
+Ran hackathons and ML workshops with an 8-member executive board, engaging <b>200+ students</b> through partnerships with Bank of America, Citi, and Amgen.
+<br><br>
+<b>Director of Events</b> &nbsp;<sub>AI Society at USF &nbsp;·&nbsp; Aug 2024 – Dec 2024</sub><br>
+Directed 7 technical events and secured <b>$6,000</b> in funding, driving a <b>30%</b> increase in member retention.
+<br><br>
+<b>Resident Assistant</b> &nbsp;<sub>University of South Florida &nbsp;·&nbsp; Aug 2025 – May 2026</sub><br>
+Named <b>Student Staff of the Year</b> with an Exemplary performance rating and a 100% on-time completion rate across all operational reports.
 
-**Director of Events** — AI Society at USF <sub>Aug 2024 – Dec 2024</sub><br>
-Directed 7 technical events and secured **$6,000** in funding, driving a **30%** increase in member retention for a 100+ member organization.
+</td>
+<td valign="top">
 
-**Resident Assistant** — University of South Florida <sub>Aug 2025 – May 2026</sub><br>
-Named **Student Staff of the Year** with an "Exemplary" performance rating and a 100% on-time completion rate across all operational reports and duty logs.
+<b>USF Presidential Scholarship</b><br>
+<sub>University of South Florida</sub>
+<br><br>
+<b>Green &amp; Gold Scholarship</b><br>
+<sub>University of South Florida</sub>
+<br><br>
+<b>NSBE International Scholarship</b><br>
+<sub>National Society of Black Engineers</sub>
+<br><br>
+<b>USF Engineering Dean's Scholarship</b><br>
+<sub>USF College of Engineering</sub>
+<br><br>
+<b>Judy Genshaft Honors Scholar</b><br>
+<sub>University of South Florida &nbsp;·&nbsp; GPA 3.87</sub>
 
-<br>
-
-## Honors
-
-**USF Presidential Scholarship** &nbsp;<sub>University of South Florida</sub><br>
-**NSBE International Scholarship** &nbsp;<sub>National Society of Black Engineers</sub><br>
-**USF Engineering Dean's Scholarship** &nbsp;<sub>College of Engineering</sub><br>
-**Judy Genshaft Honors Scholar** &nbsp;<sub>University of South Florida</sub><br>
-**Green & Gold Scholarship** &nbsp;<sub>University of South Florida</sub>
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -174,13 +230,12 @@ Named **Student Staff of the Year** with an "Exemplary" performance rating and a
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=maazin&show_icons=true&hide_border=true&hide_title=true&theme=transparent&text_color=c9d1d9&icon_color=58a6ff">
-  <img src="https://github-readme-stats.vercel.app/api?username=maazin&show_icons=true&hide_border=true&hide_title=true&theme=transparent&text_color=24292f&icon_color=0969da" alt="GitHub stats">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=maazin&show_icons=true&hide_border=true&hide_title=true&theme=transparent&text_color=8B949E&icon_color=58A6FF">
+  <img src="https://github-readme-stats.vercel.app/api?username=maazin&show_icons=true&hide_border=true&hide_title=true&theme=transparent&text_color=59636E&icon_color=0969DA" alt="GitHub stats">
 </picture>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=maazin&layout=compact&hide_border=true&hide_title=true&langs_count=8&theme=transparent&text_color=c9d1d9">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazin&layout=compact&hide_border=true&hide_title=true&langs_count=8&theme=transparent&text_color=24292f" alt="Top languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=maazin&layout=compact&hide_border=true&hide_title=true&langs_count=8&theme=transparent&text_color=8B949E">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazin&layout=compact&hide_border=true&hide_title=true&langs_count=8&theme=transparent&text_color=59636E" alt="Top languages">
 </picture>
 
 </div>
@@ -189,7 +244,7 @@ Named **Student Staff of the Year** with an "Exemplary" performance rating and a
 
 <div align="center">
 
-**Building something at the intersection of AI and real users? Let's talk.**
+<b>Building something at the intersection of AI and real users? Let's talk.</b>
 
 <sub><a href="mailto:contactmaazin@gmail.com">contactmaazin@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/maazin-shaikh">LinkedIn</a> &nbsp;·&nbsp; <a href="https://www.maazin.site">maazin.site</a></sub>
 
