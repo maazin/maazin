@@ -98,6 +98,6 @@ def stack(t):
     return "\n".join(o)
 
 for t in THEMES:
-    open(f"assets/hero-{t}.svg", "w").write(hero(t))
-    open(f"assets/stack-{t}.svg", "w").write(stack(t))
+    open(f"hero-{t}.svg", "w").write(hero(t))
+    open(f"stack-{t}.svg", "w").write(stack(t))
 print("generated")
