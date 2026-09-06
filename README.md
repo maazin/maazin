@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Maazin Shaikh — Software Engineer, AI/ML Engineer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="hero-dark.svg">
+  <img src="hero-light.svg" alt="Maazin Shaikh — Software Engineer, AI/ML Engineer" width="100%">
 </picture>
 
 <p>
@@ -177,8 +177,8 @@ Planned and executed A/B tests driving a <b>20%</b> lift in conversion.
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Languages, AI and ML, Backend, Frontend, Infrastructure" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="stack-dark.svg">
+  <img src="stack-light.svg" alt="Languages, AI and ML, Backend, Frontend, Infrastructure" width="100%">
 </picture>
 
 <br>
@@ -222,23 +222,6 @@ Named <b>Student Staff of the Year</b> with an Exemplary performance rating and 
 </td>
 </tr>
 </table>
-
-<br>
-
-## GitHub
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=maazin&show_icons=true&hide_border=true&hide_title=true&theme=transparent&text_color=8B949E&icon_color=58A6FF">
-  <img src="https://github-readme-stats.vercel.app/api?username=maazin&show_icons=true&hide_border=true&hide_title=true&theme=transparent&text_color=59636E&icon_color=0969DA" alt="GitHub stats">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=maazin&layout=compact&hide_border=true&hide_title=true&langs_count=8&theme=transparent&text_color=8B949E">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazin&layout=compact&hide_border=true&hide_title=true&langs_count=8&theme=transparent&text_color=59636E" alt="Top languages">
-</picture>
-
-</div>
 
 <br>
 
