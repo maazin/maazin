@@ -28,7 +28,7 @@
 <br><br>
 Diagnoses <i>why</i> a code submission failed, not just that it did. Five LangGraph nodes classify failures into <b>51 conceptual modes</b> at <b>75% top-1 accuracy</b> for <b>$0.0084 per request</b>.
 <br><br>
-Hybrid retrieval fuses Postgres full-text with pgvector through weighted Reciprocal Rank Fusion — <b>0.412 precision@3</b>, beating both baselines. A lexical vaulting layer blocked <b>40/40</b> injection attempts across <b>155 CI tests</b>.
+Hybrid retrieval fuses Postgres full-text with pgvector through weighted Reciprocal Rank Fusion - <b>0.412 precision@3</b>, beating both baselines. A lexical vaulting layer blocked <b>40/40</b> injection attempts across <b>155 CI tests</b>.
 <br><br>
 <sub><code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>MCP</code> <code>pgvector</code> <code>Redis</code></sub>
 
@@ -38,7 +38,7 @@ Hybrid retrieval fuses Postgres full-text with pgvector through weighted Recipro
 <sub><b>SYSTEMS · PERFORMANCE</b></sub><br>
 <a href="https://github.com/maazin/Overlap"><b>Overlap</b></a> &nbsp;<sub><a href="https://overlap-flax-psi.vercel.app/">live&nbsp;&#8599;</a></sub>
 <br><br>
-Group scheduling with no accounts and no login — <b>6 taps</b> to respond. A dominance-analysis solver proves when a time is mathematically unbeatable regardless of who hasn't replied.
+Group scheduling with no accounts and no login <b>6 taps</b> to respond. A dominance-analysis solver proves when a time is mathematically unbeatable regardless of who hasn't replied.
 <br><br>
 Closure-based resolvers cut solver runtime <b>45%</b> and memory <b>73%</b>. TTL caching and single-flight dedup collapsed 100 concurrent requests from 100 outbound fetches to <b>1</b>.
 <br><br>
@@ -101,7 +101,7 @@ Benchmarked zero-shot vs. few-shot vs. chain-of-thought prompting of Gemma 3 aga
 
 <br>
 
-**[Airline Satisfaction Prediction](https://github.com/maazin/Airline-Passanger-Satisfaction-Prediction)** — Random Forest classifier predicting passenger satisfaction from **100k+** survey records.
+**[Airline Satisfaction Prediction](https://github.com/maazin/Airline-Passanger-Satisfaction-Prediction)** - Random Forest classifier predicting passenger satisfaction from **100k+** survey records.
 <br><sub>`Python` · `scikit-learn`</sub>
 
 <br>
