@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="hero-dark.svg">
-  <img src="hero-light.svg" alt="Maazin Shaikh — Software Engineer, AI/ML Engineer" width="100%">
+  <img src="hero-light.svg" alt="Maazin Shaikh | Software Engineer | AI/ML " width="100%">
 </picture>
 
 <p>
@@ -88,7 +88,7 @@ Upload a PDF, get summaries, auto-generated quizzes, and grounded Q&amp;A, with 
 <sub><b>RESEARCH · EVALUATION</b></sub><br>
 <a href="https://github.com/maazin/LLM_Project"><b>LLM Prompting Study</b></a>
 <br><br>
-Benchmarked zero-shot vs. few-shot vs. chain-of-thought prompting of Gemma 3 against an RNN baseline on IMDB sentiment — a controlled look at when prompting beats fine-tuning.
+Benchmarked zero-shot vs. few-shot vs. chain-of-thought prompting of Gemma 3 against an RNN baseline on IMDB sentiment, a controlled look at when prompting beats fine-tuning.
 <br><br>
 <sub><code>PyTorch</code> <code>Transformers</code> <code>NLP</code></sub>
 
@@ -106,17 +106,17 @@ Benchmarked zero-shot vs. few-shot vs. chain-of-thought prompting of Gemma 3 aga
 
 <br>
 
-**[Movie Recommender](https://github.com/maazin/Movie-Recommendation)** — Collaborative-filtering recommender (KNN) on MovieLens, served through Streamlit.
+**[Movie Recommender](https://github.com/maazin/Movie-Recommendation)**: Collaborative-filtering recommender (KNN) on MovieLens, served through Streamlit.
 <br><sub>`Python` · `scikit-learn` · `Streamlit`</sub>
 
 <br>
 
-**[Score Predictor](https://github.com/maazin/score-predictor)** — Linear regression predicting exam scores from study hours.
+**[Score Predictor](https://github.com/maazin/score-predictor)**: Linear regression predicting exam scores from study hours.
 <br><sub>`Python` · `Streamlit`</sub>
 
 <br>
 
-**[SQL Projects](https://github.com/maazin/SQL-Projects)** — Fortune 500 analysis of benefits, sustainability, and satisfaction by sector.
+**[SQL Projects](https://github.com/maazin/SQL-Projects)**: Fortune 500 analysis of benefits, sustainability, and satisfaction by sector.
 <br><sub>`SQL`</sub>
 
 </details>
@@ -135,7 +135,7 @@ Benchmarked zero-shot vs. few-shot vs. chain-of-thought prompting of Gemma 3 aga
 </td>
 <td valign="top">
 
-Deployed a personalized deal-ranking model in Azure Databricks with PySpark — <b>+12%</b> app click-through, <b>+9%</b> engagement in pilot.<br>
+Deployed a personalized deal-ranking model in Azure Databricks with PySpark <b>+12%</b> app click-through, <b>+9%</b> engagement in pilot.<br>
 Engineered <b>20+</b> customer and product features (purchase frequency, category affinity, deal scarcity) for <b>+15%</b> precision offline.<br>
 Ran predictive and causal analysis on <b>500K+</b> transactions, surfacing four stockout drivers and cutting out-of-stocks <b>10%</b>.
 
@@ -150,7 +150,7 @@ Ran predictive and causal analysis on <b>500K+</b> transactions, surfacing four 
 </td>
 <td valign="top">
 
-Built an AI grader for Algorithms coursework with multi-agent LLMs — <b>90%</b> agreement with human graders.<br>
+Built an AI grader for Algorithms coursework with multi-agent LLMs <b>90%</b> agreement with human graders.<br>
 Implemented the grading workflow in Python with LangChain and RAG, generating feedback on <b>100+</b> submissions and cutting grading time <b>70%</b>.
 
 </td>
@@ -164,7 +164,7 @@ Implemented the grading workflow in Python with LangChain and RAG, generating fe
 </td>
 <td valign="top">
 
-Analyzed <b>2M+</b> monthly web-traffic and energy records to define 5 KPIs — <b>+28%</b> visitor engagement.<br>
+Analyzed <b>2M+</b> monthly web-traffic and energy records to define 5 KPIs <b>+28%</b> visitor engagement.<br>
 Shipped <b>8+</b> interactive Tableau dashboards, cutting report turnaround <b>30%</b>.<br>
 Planned and executed A/B tests driving a <b>20%</b> lift in conversion.
 
