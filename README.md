@@ -11,7 +11,7 @@
 <a href="mailto:contactmaazin@gmail.com"><img src="https://img.shields.io/badge/Email-18181B?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<p><sub>Tampa, FL &nbsp;·&nbsp; B.S. Computer Science, University of South Florida &nbsp;·&nbsp; <b>Open to full-time roles</b></sub></p>
+<p><sub>Tampa, FL &nbsp;·&nbsp; B.S. Computer Science, University of South Florida &nbsp;·&nbsp; <b>Open to Full-time roles</b></sub></p>
 
 </div>
 
@@ -207,7 +207,7 @@ Named <b>Student Staff of the Year</b> with an Exemplary performance rating and 
 <b>USF Presidential Scholarship</b><br>
 <sub>University of South Florida</sub>
 <br><br>
-<b>Green &amp; Gold Scholarship</b><br>
+<b>USF Green &amp; Gold Scholarship</b><br>
 <sub>University of South Florida</sub>
 <br><br>
 <b>NSBE International Scholarship</b><br>
